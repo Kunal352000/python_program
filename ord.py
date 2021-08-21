@@ -1,0 +1,5 @@
+print(ord('a'))
+print(ord('A'))
+print(ord('<'))
+print(ord('@'))
+print(ord('J'))

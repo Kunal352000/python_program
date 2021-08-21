@@ -1,0 +1,5 @@
+print(abs(5.3))
+print(abs(-2))
+print(abs(10))
+print(abs(-3.1))
+print(abs(3+2j))

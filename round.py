@@ -1,0 +1,7 @@
+print(round(2.49))
+print(round(2.50))
+print(round(2.51))
+print(round(2.344546789,1))
+print(round(2.344546672,2))
+print(round(2.344546789,3))
+print(round(2.344546789,4))
