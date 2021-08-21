@@ -1,10 +1,4 @@
-import sys
-
-
-S = input().strip()
-try:
-    s1=int(S)
-    print(s1)
-except ValueError:
-    print("BadString")
-    
+x=['ab','cd']
+for i in x:
+    x.append(i.upper())
+print(x)
