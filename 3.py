@@ -1,8 +1,8 @@
-x=[10,20,30,20,10,30,40,10,20,10,30,20]
+x={5,7,9,True,7j}
+x.discard(7)
 print(x)
-y=list()
-for i in x:
-    if i not in y:
-        y.append(i)
-print(y)
-    
+x.discard(True)
+print(x)
+x.discard(100)
+print(x)
+

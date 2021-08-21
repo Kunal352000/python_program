@@ -1,0 +1,6 @@
+a=frozenset({1,2,3,4})
+b=frozenset({3,4,5,6})
+print(a.symmetric_difference(b))
+print(a^b)
+print(b.symmetric_difference(a))
+print(b^a)

@@ -1,5 +1,8 @@
-y=[10,20,30,40,10,10,20,30]
-ele=int(input("Enter your element: "))
-for i in range(len(y)):
-    if ele==y[i]:
-        print(i)
+x={5,9.2,4j}
+print(x)
+x.add(13)
+print(x)
+x.add(56)
+print(x)
+x.add(True)
+print(x)

@@ -1,2 +1,10 @@
-num=int(input("Enter your number: "))
-print([i for i in range(1,num) if i%2==0 and i%3==0])
+x={1,2,3,4}
+y={3,4,5,6}
+print(x)
+print(y)
+print(x.intersection_update(y))
+print(x)
+print(y)
+print(x.intersection(y))
+print(x)
+print(y)

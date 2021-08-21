@@ -1,2 +1,6 @@
-num=int(input("Enter your number: "))
-print([eval(input()) for i in range(num) ])
+A={'a','b','c','d'}
+B={'c','d','e'}
+print(A^B)
+print(B^A)
+print(A^A)
+print(B^B)

@@ -1,5 +1,4 @@
-num=int(input("Enter your number: "))
-x=[]
-for i in range(num):
-    x.append(i+1)
-print(x)
+A={1,2,3}
+B={1,2,4}
+print((A.union(B)))
+print(A|B)

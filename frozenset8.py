@@ -1,0 +1,5 @@
+A=frozenset({1,2,3,4})
+B=frozenset({2,3,4,9})
+C=frozenset({2,4,9,10})
+print(C.intersection(A,B))
+print(C&(A&B))

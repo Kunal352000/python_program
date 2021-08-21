@@ -1,6 +1,10 @@
-x=eval(input("Enter your empty list object: "))
-num=int(input("Enter your range: "))
-for i in range(num):
-    x.append(eval(input()))
+x={True,23,2.3,5j,"kunal"}
 print(x)
-print(type(x))
+x.pop()
+print(x)
+x.pop()
+print(x)
+x.pop()
+print(x)
+x.pop()
+print(x)

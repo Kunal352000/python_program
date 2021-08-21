@@ -1,0 +1,8 @@
+A=frozenset({1,2,3,4})
+B=frozenset({2,3,4,5,6})
+C=frozenset({4,5,6,9,10})
+result=C.intersection_update(B,A)
+print("result=",result)
+print("A=",A)
+print("B=",B)
+print("C=",C)

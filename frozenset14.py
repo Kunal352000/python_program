@@ -1,0 +1,7 @@
+A=frozenset({1,2,3})
+B=frozenset({1,2,3,4,5})
+C=frozenset({1,2,4,5})
+print(A.issubset(B))
+print(B.issubset(C))
+print(A.issubset(C))
+print(C.issubset(B))

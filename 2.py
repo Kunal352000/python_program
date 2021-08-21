@@ -1,10 +1,9 @@
-x=[10,20,30,40,10,20,30,40]
+x={5,134,True,"kunal"}
+y=x
+z=x.copy()
 print(x)
-ele=int(input("Enter your element: "))
-y=list()
-for i in x:
-    if ele==i:
-        pass
-    else:
-        y.append(i)
 print(y)
+print(z)
+print(id(x))
+print(id(y))
+print(id(z))
