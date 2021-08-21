@@ -1,0 +1,5 @@
+x=dict().fromkeys("kunal",3)
+print(x)
+y={}.fromkeys(['m','sc','tel'],45)
+print(y)
+print({}.fromkeys(['a','b','c'],[10,20,30]))

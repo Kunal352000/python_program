@@ -1,6 +1,7 @@
-num=int(input("Enter your number: "))
-x={}
-for i in range(1,num+1):
-    if i%2==0:
-        x[i]=i-1
+x={"siva":3,4.2:[7,8],False:4j,(5,1):"rama",9:{8,1}}
 print(x)
+print(x["siva"])
+print(x[4.2])
+print(x[False])
+print(x[(5,1)])
+print(x[9])

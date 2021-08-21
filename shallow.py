@@ -1,0 +1,9 @@
+x={'m':23,'sc':45,'hin':40,'eng':39}
+y=x
+z=x.copy()
+print(x)
+print(y)
+print(z)
+print(id(x))
+print(id(y))
+print(id(z))

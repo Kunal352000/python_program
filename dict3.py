@@ -1,2 +1,2 @@
-num=int(input("Enter your number: "))
-print({i:i-1 for i in range(1,num+1) if i%2==0})
+a={"name":"kunal",{'a':1,'b':2,'c':3}:"joshi"}
+print(a)

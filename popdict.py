@@ -1,0 +1,10 @@
+x={'m':23,'sc':45,'hin':40,'eng':39,'ss':78,"c++":65}
+print(x)
+x.pop('hin')
+print(x)
+x.pop('c++')
+print(x)
+print(x.pop('m'))
+print(x)
+print(x.pop('eng'))
+print(x)

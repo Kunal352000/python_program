@@ -1,0 +1,10 @@
+x={'m':23,'sc':45,'hin':40,'eng':39,'ss':78,"c++":65}
+print(x)
+print(x.get('sc'))
+print(x)
+print(x.get('ss'))
+print(x.get('eng'))
+print(x.get('sc'))
+print(x)
+print(x['sc'])
+print(x['py'])
