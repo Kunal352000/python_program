@@ -1,6 +1,5 @@
-#pattern5
-for i in range(1,6):
-    for j in range(1,i+1):
-        print(j,end=" ")
+num=int(input("Enter the numner: "))
+for i in range(num):
+    for j in range(num-i):
+        print("*",end=" ")
     print()
-    

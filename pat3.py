@@ -1,5 +1,8 @@
-#pattern3
-for i in range(1,6):
-    for j in range(1,7-i):
-        print("*",end="")
+num=int(input("Enter the number: "))
+for i in range(num):
+    for j in range(num):
+        if i==0 or i==num-1 or j==0 or j==num-1:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
     print()
