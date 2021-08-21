@@ -1,10 +1,3 @@
-num=int(input("Enter three digit number:"))
-print("After",end="")
-rev=num%10
-print(rev,end="")
-rev=num//10
-rev=rev%10
-print(rev,end="")
-rev=num//10
-rev=rev//10
-print(rev,end="")
+a=(10,20,30,40)
+print(a[2])
+print(a[-2])
