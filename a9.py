@@ -1,6 +1,5 @@
-from numpy import*
-x=array([10,20,30,40,50])
-i=-1
-while(i>=5):
-    print(x[i])
-    i=-1
+num=int(input("Enter the number: "))
+for i in range(num,0,-1):
+    for j in range(1,i+1):
+        print(j,end=" ")
+    print()

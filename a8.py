@@ -1,4 +1,5 @@
-from numpy import*
-x=array([10,20,30,40,50])
-for i in range(6):
-    print(x[i])
+num=int(input("Enter the number: "))
+for i in range(1,num+1):
+    for j in range(1,i+1):
+        print(i,end=" ")
+    print()
