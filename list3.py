@@ -3,5 +3,5 @@ y=[]
 for i in range(len(x)):
     if x[i] not in y:
         y.append(x[i])
-print("before removing",x)
-print("After removing",y)
+print("before removing=",x)
+print("After removing=",y)
