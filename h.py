@@ -1,6 +1,8 @@
-x=eval(input("Enter the empty-nested list: "))
-for i in range(2):
+l1=eval(input())
+for i in range(3):
     for j in range(2):
-        x[i].append(eval(input()))
-
-print(x)
+        l1[i].append(eval(input()))
+print(l1)
+l1.sort()
+print(l1)
+print(max(l1))
