@@ -1,5 +1,5 @@
-num=int(input("Enter the number: "))
-for i in range(num):
-    for j in range(num-i):
-        print(j+1,end="")
-    print()
+x=eval(input("Enter your nested list object: "))
+num=int(input("Enter the numbers: "))
+for i in range(1,num+1):
+    x.append(i)
+print(x)

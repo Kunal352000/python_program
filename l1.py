@@ -1,5 +1,8 @@
-x=[10,20,30,10,40,20,10]
-ele=int(input("Enter your element: "))
-for i in range(len(x)):
-    if ele==x[i]:
-        print(i)
+x=[]
+num=int(input("Enter your number: "))
+for i in range(1,num+1):
+    if i%2==0:
+        x.append(i)
+    else:
+        x.append("invalid")
+print(x)

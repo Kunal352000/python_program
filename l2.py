@@ -1,10 +1,2 @@
-x=[10,20,30,20,10,30,40,10,20,10,30,20]
-ele=int(input("Enter your element: "))
-y=[]
-for i in range(len(x)):
-    if x[i]==ele:
-        pass
-    else:
-        y.append(x[i])
-print(y)
-    
+num=int(input("Enter your number: "))
+print([i for i in range(1,num+1) if i%2==0])
