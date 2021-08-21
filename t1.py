@@ -1,0 +1,10 @@
+num=int(input("Enter three digit number:"))
+print("After",end="")
+rev=num%10
+print(rev,end="")
+rev=num//10
+rev=rev%10
+print(rev,end="")
+rev=num//10
+rev=rev//10
+print(rev,end="")
