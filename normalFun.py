@@ -1,0 +1,12 @@
+def f1(x):
+    print(x,(type(x)))
+f1(2)
+f1(3.1)
+f1(4j)
+f1("siva")
+f1(True)
+f1(None)
+f1([4,5,6])
+f1({4,2,6})
+f1({5,8,3})
+f1({"name":"kj","age":21})
