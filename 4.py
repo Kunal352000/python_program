@@ -1,8 +1,7 @@
-x={5,6,7,8,9}
-print(x)
-x.remove(7)
-print(x)
-x.remove(9)
-print(x)
-x.remove(100)
-print(x)
+num=int(input("Enter the number: "))
+for i in range(num):
+    for j in range(i):
+        print(" ",end="")
+    for j in range(num-i):
+        print("*",end="")
+    print()

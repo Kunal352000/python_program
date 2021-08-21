@@ -1,9 +1,5 @@
-x={5,134,True,"kunal"}
-y=x
-z=x.copy()
-print(x)
-print(y)
-print(z)
-print(id(x))
-print(id(y))
-print(id(z))
+num=int(input("Enter the number: "))
+for i in range(num):
+    for j in range(num-i):
+        print("*",end="")
+    print()

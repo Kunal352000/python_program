@@ -1,6 +1,13 @@
-A={1,2,3,4}
-B={2,3,9}
-print(A.difference(B))
-print(B.difference(A))
-print(A-B)
-print(B-A)
+for i in range(4):
+    for j in range(4-1-i):
+        print(" ",end="")
+    for j in range(i+i+1):
+        print("*",end="")
+    print()
+
+for i in range(3):
+    for j in range(i+1):
+        print(" ",end="")
+    for j in range(6-1-i-i):
+        print('*',end="")
+    print()

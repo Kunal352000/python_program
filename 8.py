@@ -1,5 +1,5 @@
-A={1,2,3,4}
-B={2,3,4,9,10}
-C={2,4,9,10}
-print(C.intersection(A,B))
-print(C&(A&B))
+num=int(input("Enter the number: "))
+for i in range(num):
+    for j in range(num-i):
+        print(j+1,end="")
+    print()

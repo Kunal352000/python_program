@@ -1,8 +1,5 @@
-x={5,9.2,4j}
-print(x)
-x.add(13)
-print(x)
-x.add(56)
-print(x)
-x.add(True)
-print(x)
+num=int(input("Enter the number: "))
+for i in range(num):
+    for j in range(i+1):
+        print("*",end="")
+    print()
