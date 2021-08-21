@@ -1,0 +1,7 @@
+num=int(input("Enter the numnber: "))
+for i in range(num):
+    for j in range(i):
+        print(" ",end=" ")
+    for j in range(num-i):
+        print(j+1,end=" ")
+    print()
