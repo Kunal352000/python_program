@@ -1,0 +1,43 @@
+(Q.1)login
+for i in range(3):
+    uid=input("Enter userid:")
+    pwd=input("Enter password:")
+    if(uid=="FirstBit"and pwd=="Python"):
+        break
+        print("Login Succesful")
+    else:
+        print("Try more")
+else:
+    print("Login failed")
+     
+(Q.2)avg student
+noStudent=int(input("Enter number student=>"))
+for i in range(noStudent):
+    mth=float(input("Enter marks of mth=>"))
+    phy=float(input("Enter marks of phy=>"))
+    che=float(input("Enter marks of che=>"))
+    hin=float(input("Enter marks of hin=>"))
+    eng=float(input("Enter marks of eng=>"))
+    total=mth+phy+che+hin+eng
+    per=total/5
+    print("Percentage",per,"%")
+
+avg=per/noStudent
+print("Averge percentage=>",avg,"%")
+
+(Q.3)passenger ticket
+num=int(input("Enter number of passengers=>"))
+total=0
+for i in range(num):
+    age=int(input("Enter age:"))
+    ticket=int(input("Enter price:"))
+    if(age<=12):
+        total=ticket-(ticket*30)/100
+        print("Plz pay=>",total)
+    elif(age>=59):
+        total=ticket-(ticket*50)/100
+        print("Plz pay=>",total)
+    else:
+        print("Plz pay=>",ticket)
+        
+
