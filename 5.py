@@ -1,5 +1,6 @@
-x=[10,20,30,40,10,20,10,50,40]
-y={}
-for i in x:
-    y[i]=x.count(i)
-print(y)
+x=eval(input("Enter your empty list object: "))
+num=int(input("Enter your range: "))
+for i in range(num):
+    x.append(eval(input()))
+print(x)
+print(type(x))

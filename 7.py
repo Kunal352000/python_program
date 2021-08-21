@@ -1,5 +1,5 @@
-x=input("Enter your String: ")
-y={}
-for i in x.split():
-    y[i]=len(i)
-print(y)
+num=int(input("Enter your number: "))
+x=[]
+for i in range(num):
+    x.append(i+1)
+print(x)

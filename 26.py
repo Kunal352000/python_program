@@ -1,3 +1,6 @@
-a=[1,2,3,4]
-b=[10,1,6]
-print([i+j for i in a for j in b])
+x=[10,20,30,40,50]
+print(x)
+ele=int(input("Enter inserted element: "))
+pos=int(input("Enter position: "))
+x.insert(pos,ele)
+print(x)

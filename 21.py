@@ -1,4 +1,3 @@
-print([i**2 for i in range(1,11)])
-print()
-
-print([2**i for i in range(1,11)])
+a=[1,2,3,4]
+b=[10,1,6]
+print([a[i]+b[j] for i in range(len(a)) for j in range(len(b))])
